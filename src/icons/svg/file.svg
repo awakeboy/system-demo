@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>ico_file</title>
+    <desc>Created with Sketch.</desc>
+    <g id="系统管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="系统管理_菜单管理" transform="translate(-354.000000, -343.000000)">
+            <g id="ico_file" transform="translate(354.000000, 343.000000)">
+                <rect x="0" y="0" width="24" height="24"></rect>
+                <polygon id="Rectangle" stroke="#607AE3" stroke-width="1.6" points="5 4 14.5712688 4 19 8.83794354 19 20 5 20"></polygon>
+                <polyline id="Path" stroke="#607AE3" stroke-width="1.6" points="19 9 14 9 14 4"></polyline>
+                <line x1="8" y1="13.0736479" x2="14" y2="13.0736479" id="Path-22" stroke="#607AE3" stroke-width="1.6"></line>
+                <line x1="8" y1="16" x2="16" y2="16" id="Path-22-Copy" stroke="#607AE3" stroke-width="1.6"></line>
+            </g>
+        </g>
+    </g>
+</svg>

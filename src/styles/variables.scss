@@ -1,0 +1,54 @@
+// base color
+$blue:#324157;
+$light-blue:#3A71A8;
+$pure-blue: #4132c7;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+// sidebar
+// $menuText:#28356C; // 菜单的字体颜色
+// $subMenuText: #767FA2; // 子菜单的字体颜色
+// $menuActiveText:#409EFF;
+// $subMenuActiveText:#28356C; // 子菜单被选中 菜单的颜色
+
+// $menuBg:#FFFFFF; // 菜单的背景
+// $menuHover:#E5EAFF; // 鼠标悬浮菜单的背景
+
+// $subMenuBg:#FFFFFF; // 子菜单的背景
+// $subMenuHover: #E5EAFF; // 子菜单鼠标悬浮菜单的背景
+
+// $sideBarWidth: 240px; // 左侧菜单栏的宽度
+
+$menuText:#d3d1d1; // 菜单的字体颜色
+$subMenuText: #d3d1d1; // 子菜单的字体颜色
+$menuActiveText:#d3d1d1;
+$subMenuActiveText:#fff; // 子菜单被选中 菜单的颜色
+
+$menuBg: #3c4b64; // 菜单的背景
+$menuHover:rgba(255, 255, 255, 0.05); // 鼠标悬浮菜单的背景
+
+$subMenuBg: #354155; // 子菜单的背景
+$subMenuHover: rgba(255, 255, 255, 0.05); // 子菜单鼠标悬浮菜单的背景
+$subMenuHoverText: #fff; // 子菜单鼠标悬浮字体颜色
+$menuHoverText: #fff; // 菜单鼠标悬浮字体颜色
+
+$sideBarWidth: 240px; // 左侧菜单栏的宽度
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  menuHoverText: $menuHoverText;
+  subMenuHoverText: $subMenuHoverText;
+}
